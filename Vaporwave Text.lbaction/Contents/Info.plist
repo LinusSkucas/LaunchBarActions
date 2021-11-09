@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/SidebariCloud.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>sh.linus.LaunchBar.action.Vaporwave</string>
+	<key>CFBundleName</key>
+	<string>Vaporwave Text</string>
+	<key>CFBundleVersion</key>
+	<string>v1</string>
+	<key>LBArgument</key>
+	<string>Text</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>Text</string>
+		<key>LBAuthor</key>
+		<string>Linus Skucas</string>
+		<key>LBEmail</key>
+		<string>linus@linus.sh</string>
+		<key>LBResult</key>
+		<string>Text</string>
+		<key>LBSummary</key>
+		<string>Vaporwave your text!</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>linus.sh</string>
+	</dict>
+	<key>LBResult</key>
+	<string>Text</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBAllowsInstantReuseOfLastTextInputString</key>
+			<true/>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>vaportext</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Linus Skucas</string>
+</dict>
+</plist>
